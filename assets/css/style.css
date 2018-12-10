@@ -1,0 +1,18 @@
+.jumbotron {
+
+    background-color: lightseagreen;
+}
+
+.crystals{
+    display:flex;
+    justify-content: space-around;
+   
+    align-items: center;
+}
+
+
+.crystal {
+
+height: 200px;
+width: 200px;
+}
