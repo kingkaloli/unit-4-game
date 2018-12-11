@@ -1,4 +1,4 @@
-$(document).ready() 
+$(document).ready()
 
 
 
@@ -21,13 +21,14 @@ $(".crystal-image1", ).on("click", function () {
 
   if (counter === targetNumber) {
     winner += 1;
-
     $("#gameWins").text(winner);
   } else if (counter >= targetNumber) {
     alert("You lose!!");
   }
 
+
 });
+
 $(".crystal-image2", ).on("click", function () {
 
 
