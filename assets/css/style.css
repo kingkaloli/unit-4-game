@@ -1,18 +1,62 @@
-.jumbotron {
+h1 {
 
-    background-color: lightseagreen;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(78, 56, 0)
 }
 
-.crystals{
-    display:flex;
+
+h4 {
+    font-size: 20px;
+
+}
+
+
+p {
+    font-size: 20px;
+
+}
+
+.wrapper {
+
+    background-color: azure;
+}
+
+
+
+
+.jumbotron {
+
+    background-color: lightblue;
+}
+
+.crystals {
+    display: flex;
     justify-content: space-around;
-   
+
     align-items: center;
 }
 
 
 .crystal {
 
-height: 200px;
-width: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+.bg-light {
+    background-color: lightblue !important;
+}
+
+#bird {
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.space {
+
+    margin-bottom: 20%;
 }

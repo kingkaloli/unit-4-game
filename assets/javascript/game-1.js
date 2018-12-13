@@ -12,10 +12,10 @@ $(document).ready(function () {
 
   
 
-  // function to run everytime the player wins or loses, it will recalculate your random number and reset your counter
+  // I added this function to run everytime the player wins or loses, it will recalculate your random number and reset your counter
   function startGame() {
     targetNumber = Math.floor(Math.random() * 69) + 30;
-     console.log( "targetNumber ");
+
     //---Counter 1 and so forth 
     counterone = Math.floor(Math.random() * (20 -2));
     console.log(counterone);
@@ -38,18 +38,18 @@ $(document).ready(function () {
   $(".crystal-image1", ).on("click", function () {
     counter += counterone;
 
-    ////--define counter 
+    ////--define eeach counter 
     console.log(counter);
     $("#counterToGuess").text(counter);
     if (counter === targetNumber) {
-      //  winner++ to increment the variable everytime you win
+      // I cahnged this to winner++ to increment the variable everytime you win
       winner++ ;
       $("#gameWins").text(winner);
-      // function here to reset the game after you win
+      // I called this function here to reset the game after you win
       startGame();
     } else if (counter >= targetNumber) {
       alert("You lose!!");
-      // restart your game after you lose
+      // Samething here to restart your game after you lose
       startGame();
     }
 
@@ -86,7 +86,7 @@ $(document).ready(function () {
 
   });
   $(".crystal-image4", ).on("click", function () {
-    counter += 2;
+    counter += 3;
     console.log(counter);
     $("#counterToGuess").text(counter);
     if (counter === targetNumber) {
