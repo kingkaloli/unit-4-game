@@ -9,6 +9,7 @@ $(document).ready(function () {
   var hasLost = false;
   var counterone =5;
   var counterTwo =2;
+  var counterThree =2;
 
   
 
@@ -21,6 +22,9 @@ $(document).ready(function () {
     console.log(counterone);
 
     counterTwo = Math.floor(Math.random() * (20 -2));
+    console.log(counterone);
+
+    counterThree = Math.floor(Math.random() * (20 -2));
     console.log(counterone);
 
 
@@ -72,7 +76,7 @@ $(document).ready(function () {
   });
 
   $(".crystal-image3", ).on("click", function () {
-    counter += 6;
+    counter += counterThree;
     console.log(counter);
     $("#counterToGuess").text(counter);
     if (counter === targetNumber) {
