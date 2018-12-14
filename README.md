@@ -7,7 +7,7 @@ Guess the Crystals to match the random number.
 
 ## Aps used
 
-html, bootstrap,google fonts, css,javascript,jQery
+html, bootstrap,google fonts, css,javascript,jquery.
 
 
 ## Where users can get help with your project:
